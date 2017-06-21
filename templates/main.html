@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:300,700" rel="stylesheet">     
+		<style>
+			body{
+				width: 100%;
+				margin: 0;
+			}
+
+			.error {
+				font-family: 'Yanone Kaffeesatz', sans-serif;
+				color: red;
+				font-size:25px;
+				position: absolute;
+				top:170px;
+			}
+
+			.error:nth-of-type(2){
+				top: 295px;
+			}
+
+			.error:nth-of-type(3){
+				top: 420px;
+			}
+
+			.error:nth-of-type(4){
+				top: 540px;
+			}
+
+			h1 {
+				font-family: 'Yanone Kaffeesatz', sans-serif;
+				width: 525px;
+				margin: 25px auto;
+				font-size: 60px;
+			}
+			
+			form {
+				width: 525px;
+				margin: 0 auto;
+			}
+
+			label {
+				font-family: 'Yanone Kaffeesatz', sans-serif;
+				font-size: 25px;
+			}
+
+			input {
+				width: 99%;
+				margin: 5px 0 55px 0;
+				padding: 5px 0 5px 5px;
+				border-top: 0;
+				border-right:0;
+				border-left:0;
+				border-bottom: 2px solid black;
+				font-family: 'Yanone Kaffeesatz', sans-serif;
+				font-size: 25px;
+				color: #afafaf;
+			}
+
+			#submit {
+				margin-top: 5px;
+				padding: 15px;
+				border: 0;
+				border-radius: 5px;
+				width: 100%;
+				background-color: #bfd7ff;
+				font-size: 40px;
+				color: black;
+			}
+
+			#success_id {
+				width:100%;
+				text-align: center;
+			}
+
+		</style>
+	</head>
+	<body>
+
+		{% block content %}
+        {% endblock %}
+
+	</body>
+</html>
